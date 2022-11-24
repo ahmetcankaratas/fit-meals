@@ -48,6 +48,13 @@
     background-color: #4c5525;
     color: white;
   }
+
+  .actions .submit:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
   
   .actions .submit:hover,
   .actions .submit:active {
